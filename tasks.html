@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="tasks">
 <head>
 	<meta charset="UTF-8">
     <title>Tareas Serempre</title>
@@ -7,6 +7,8 @@
 <!-- Definición de la aplicación Apiduco -->
 <body>
 	<h1>¡Aplicación para el manejo de tareas en Serempre!</h1>
+    <!-- Dentro de este div se renderizan las vistas -->
+    <div ui-view></div>
     <!-- Definición de las librerias de angular para la app -->
     <!-- angular.min.js  <--  Libreria principal de Angular  -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
